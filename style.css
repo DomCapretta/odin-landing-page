@@ -122,9 +122,40 @@ ul {
     color: #1f2937;
 }
 
+.info-text {
+    margin-bottom: 75px;
+}
+
 .info {
     margin: 16px;
     max-width: 200px;
 }
 
 /* Quote Section Styling */
+
+.quote {
+    padding: 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotetext {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    margin: 16px;
+}
+
+.quoteauthor{
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+}
