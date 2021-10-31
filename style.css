@@ -15,9 +15,12 @@ body {
     padding: 16px;
 }
 
+.header-logo {
+    font-size: 24px;
+}
+
 .links {
     font-size: 18px;
-    
 }
 
 a {
@@ -37,7 +40,8 @@ ul {
 
 .hero {
     display: flex;
-    margin-top: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     justify-content: space-around;
     align-items: center;
     padding: 16px;
@@ -50,7 +54,7 @@ ul {
 }
 .hero-title {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #f9faf8;
     display: flex;
     align-items: flex-start;
@@ -71,6 +75,7 @@ ul {
     align-items: center;
     color: #e5e7eb;
     font-size: 16px;
+    border-radius: 12px;
 }
 
 .hero-button {
@@ -82,3 +87,44 @@ ul {
     border-radius: 12px;
     border-color: #3882f6;
 }
+
+/* Style for Information Section */
+
+.information {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    border-width: 10px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 12px;
+    margin: 16px;
+}
+
+.info-title {
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    background-color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info {
+    margin: 16px;
+    max-width: 200px;
+}
+
+/* Quote Section Styling */
